@@ -24,15 +24,21 @@
   },
   "name":"TurnBased",
   "resources":[
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_Circle","path":"objects/obj_Circle/obj_Circle.yy",},},
     {"id":{"name":"obj_global","path":"objects/obj_global/obj_global.yy",},},
     {"id":{"name":"obj_Lena","path":"objects/obj_Lena/obj_Lena.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_LenaHelper","path":"objects/obj_LenaHelper/obj_LenaHelper.yy",},},
+    {"id":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
+    {"id":{"name":"rm_TitleMenu","path":"rooms/rm_TitleMenu/rm_TitleMenu.yy",},},
     {"id":{"name":"spr_Lena","path":"sprites/spr_Lena/spr_Lena.yy",},},
+    {"id":{"name":"spr_Summon","path":"sprites/spr_Summon/spr_Summon.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},},
+    {"roomId":{"name":"rm_TitleMenu","path":"rooms/rm_TitleMenu/rm_TitleMenu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
